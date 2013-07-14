@@ -5,7 +5,7 @@ set -o vi
 #if yet not exist copy the skeleton
 [ ! -e ~/.git_completion.sh ] && if [ -f /etc/bash_completion.d/git ]; then
    cp /etc/bash_completion.d/git ~/.git_completion.sh
-   echo `ls ~/.git_completion.sh`
+#   echo `ls ~/.git_completion.sh`
 fi
 
 if [ -f ~/.git_completion.sh ]; then
