@@ -10,5 +10,6 @@ fi
 
 if [ -f ~/.git_completion.sh ]; then
    . ~/.git_completion.sh
-   PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+#   PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\] # the original
+   PS1='\[\033[0;34m\][\u@\h \W$(__git_ps1 " (%s)")]\$ \[\033[0m\]'
 fi
