@@ -1,4 +1,4 @@
-#setup
+#enable vi-like command line editing
 set -o vi
 
 #set up completion surpport for Git core
