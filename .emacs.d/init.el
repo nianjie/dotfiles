@@ -18,7 +18,7 @@
 (require 'compile)
 (ido-mode t)
 (menu-bar-mode -1)
-(normal-erase-is-backspace-mode 1)
+(normal-erase-is-backspace-mode 0)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 (setq column-number-mode t)
@@ -61,9 +61,9 @@
 (global-set-key "\M-o" 'other-window)
 (global-set-key "\M-i" 'back-window)
 (global-set-key "\C-z" 'zap-to-char)
-(global-set-key "\C-h" 'backward-delete-char)
+;;(global-set-key "\C-h" 'backward-delete-char)
 (global-set-key "\M-d" 'delete-word)
-(global-set-key "\M-h" 'backward-delete-word)
+;;(global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
 
 ;; ---------------------------

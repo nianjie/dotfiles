@@ -15,3 +15,6 @@ if [ -f ~/.git_completion.sh ]; then
    PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\]' # different color for each part
    export GIT_PS1_SHOWDIRTYSTATE=1 # show an indecator after branch name
 fi
+
+#set up aliases
+alias ls='ls --color=auto'
