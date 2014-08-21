@@ -18,3 +18,8 @@ fi
 
 #set up aliases
 alias ls='ls --color=auto'
+
+# setup proxy environment
+export http_proxy=http://proxy.jmas.co.jp:8080/
+export ftp_proxy=http://proxy.jmas.co.jp:8080/
+export https_proxy=http://proxy.jmas.co.jp:8080/ 
