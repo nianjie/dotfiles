@@ -1,0 +1,2 @@
+# set readline library using vi-mode
+set editing-mode vi
