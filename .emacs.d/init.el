@@ -44,7 +44,7 @@
  '(linum ((t (:foreground "black" :weight bold))))
  '(region ((((class color) (min-colors 8)) (:background "white" :foreground "magenta"))))
  '(secondary-selection ((((class color) (min-colors 8)) (:background "gray" :foreground "cyan"))))
- '(show-paren-match ((((class color) (background light)) (:background "black"))) t)
+ '(show-paren-match ((((class color) (background light)) (:background "black"))))
  '(vertical-border ((t nil))))
 
 ;; ------------
@@ -81,4 +81,4 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(custom-enabled-themes (quote (manoj-dark)))
- '(menu-bar-mode nil))
+ '(show-paren-mode t))
