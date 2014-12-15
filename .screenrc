@@ -91,6 +91,7 @@ screen -t git 2
 screen -t server 3
 screen -t selenium 4
 screen -t man 5
+screen -t ut 6
 
 # 2.4) Description of the keywords used in hardstatus
 # caption always "%?%F%{-b bc}%:%{-b bb}%?%C|%D|%M %d|%H%?%F%{+u wb}%? %L=%-Lw%45>%{+b by}%n%f* %t%{-}%+Lw%-0<"
